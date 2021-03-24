@@ -28,7 +28,6 @@ print('Skewness: \n', skew)
 
 # There is a visible disproportion with the DEATH_EVENT as well as some other values
 # Following steps are: 1. plotting the data to see the distributions, 2. trying to minimize differences
-
 def feature_plt(feature):  # code to visualize distribution, scatterplot and boxplot
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5), dpi=110)
 
